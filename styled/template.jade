@@ -1,0 +1,13 @@
+#my-styled-component(style="display:none;")
+  p Hello!
+  span this is a component that needs css to be properly shown.
+
+script.
+  window.oc = window.oc || {};
+  oc.cmd = oc.cmd || [];
+
+  oc.cmd.push(function(oc){
+    oc.require('#{staticPath}css/style.css', function(){
+      $('#my-styled-component').css('display', 'block');
+    });
+  });  

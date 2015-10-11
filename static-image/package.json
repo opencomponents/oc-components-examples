@@ -1,0 +1,17 @@
+{
+  "name": "static-image",
+  "description": "An OpenComponent that shows how to include a static image inside a component",
+  "version": "1.0.0",
+  "repository": "https://github.com/matteofigus/oc-components-examples",
+  "author": "Matteo Figus <matteofigus@gmail.com>",
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "template.jade",
+        "type": "jade"
+      },
+      "static": ["images"]
+    }
+  }
+}

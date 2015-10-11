@@ -1,0 +1,9 @@
+#my-styled-component {
+  color: red;
+  float: left;
+  background-color: yellow;
+}
+
+#my-styled-component p {
+  font-weight: bold;
+}

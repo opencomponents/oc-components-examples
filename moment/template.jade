@@ -1,0 +1,14 @@
+div.time What time is it?
+
+script.
+  window.oc = window.oc || {};
+  oc.cmd = oc.cmd || [];
+
+  oc.cmd.push(function(oc){
+    var momentUrl = 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment-with-locales.js';
+
+    oc.require('moment', momentUrl, function(moment){
+      $('.time').append(moment().format('HH:mm'));
+    });
+
+  });

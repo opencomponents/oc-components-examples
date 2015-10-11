@@ -1,0 +1,24 @@
+{
+  "name": "handlebars-hello",
+  "description": "An hello world OpenComponent using Handlebars as view engine",
+  "version": "1.0.0",
+  "repository": "https://github.com/matteofigus/oc-components-examples",
+  "author": "Matteo Figus <matteofigus@gmail.com>",
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "template.html",
+        "type": "handlebars"
+      }
+    },
+    "parameters": {
+      "name": {
+        "type": "string",
+        "mandatory": false,
+        "example": "John Doe",
+        "description": "Your name"
+      }
+    }
+  }
+}

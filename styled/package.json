@@ -1,0 +1,17 @@
+{
+  "name": "styled",
+  "description": "A component that shows how to require a css dependency. It also waits the css to be ready so that it comes out styled already",
+  "version": "1.0.0",
+  "repository": "https://github.com/matteofigus/oc-components-examples",
+  "author": "Matteo Figus <matteofigus@gmail.com>",
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "template.jade",
+        "type": "jade"
+      },
+      "static": ["css"]
+    }
+  }
+}

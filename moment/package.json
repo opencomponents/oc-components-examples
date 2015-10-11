@@ -1,0 +1,15 @@
+{
+  "name": "moment",
+  "description": "A component that shows how to require a client-side dependency. The component will download it only if necessary",
+  "version": "1.0.0",
+  "repository": "https://github.com/matteofigus/oc-components-examples",
+  "author": "Matteo Figus <matteofigus@gmail.com>",
+  "oc": {
+    "files": {
+      "template": {
+        "src": "template.jade",
+        "type": "jade"
+      }
+    }
+  }
+}
