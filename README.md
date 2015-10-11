@@ -19,19 +19,19 @@ oc dev . 3030
 ```
 
 ## The components
-Hello world examples using different view engines: [Handlebars](tree/master/handlebars-hello) and [Jade](tree/master/handlebars-jade).
+Hello world examples using different view engines: [Handlebars](handlebars-hello) and [Jade](handlebars-jade).
 
 ### Static resources
-[This example](tree/master/static-image) shows how to include static resources inside components. When developing locally, the local resources will be used, when the component will be package they will be hosted inside the cdn. When files are `css` or `js` they are automatically minified during the packaging phase.
+[This example](static-image) shows how to include static resources inside components. When developing locally, the local resources will be used, when the component will be package they will be hosted inside the cdn. When files are `css` or `js` they are automatically minified during the packaging phase.
 
 ### Client-side javascript dependencies
-[This example](tree/master/moment) shows how to use a client-side library. The oc client will try to resolve the dependency inside the window global scope. In case the dependency will be found, it will be used, if not it will be downloaded from provided url and then the component rendering phase will start. If you want to require local dependencies you obviously can (look at the previous example).
+[This example](moment) shows how to use a client-side library. The oc client will try to resolve the dependency inside the window global scope. In case the dependency will be found, it will be used, if not it will be downloaded from provided url and then the component rendering phase will start. If you want to require local dependencies you obviously can (look at the previous example).
 
 ### Styling and client-side css dependencies
-If you don't want to do css in-lining, and your component needs some css that is not already on the container, you can require it and you can pause the rendering until the css is loaded and ready. [This example](tree/master/styled) shows how to require a css file and how to delay the display phase using javascript.
+If you don't want to do css in-lining, and your component needs some css that is not already on the container, you can require it and you can pause the rendering until the css is loaded and ready. [This example](styled) shows how to require a css file and how to delay the display phase using javascript.
 
 ### Nesting components
-If you want to nest components, you can. [This example](tree/master/nested-hello) shows how to render a nested component that is hosted in the same registry (but this is not a mandatory requirement).
+If you want to nest components, you can. [This example](nested-hello) shows how to render a nested component that is hosted in the same registry (but this is not a mandatory requirement).
 
 ### Can I do ...? How?
 [Let me know](issues) if you would like more examples about OpenComponents. I will try to update this list adding more and more examples. If you want to ask any question about OC, [open an issue in the OC main repository](https://github.com/opentable/oc).
