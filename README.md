@@ -19,7 +19,7 @@ oc dev . 3030
 ```
 
 ## The components
-Hello world examples using different view engines: [Handlebars](handlebars-hello) and [Jade](handlebars-jade).
+Hello world examples using different view engines: [Handlebars](handlebars-hello) and [Jade](jade-hello).
 
 ### Static resources
 [This example](static-image) shows how to include static resources inside components. When developing locally, the local resources will be used, when the component will be package they will be hosted inside the cdn. When files are `css` or `js` they are automatically minified during the packaging phase.
