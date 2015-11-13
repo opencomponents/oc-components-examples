@@ -1,0 +1,17 @@
+{
+  "name": "angular-component",
+  "description": "An OpenComponent that contains an Angular.js app",
+  "version": "1.0.0",
+  "repository": "https://github.com/matteofigus/oc-components-examples",
+  "author": "Matteo Figus <matteofigus@gmail.com>",
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "template.jade",
+        "type": "jade"
+      },
+      "static": ["js"]
+    }
+  }
+}

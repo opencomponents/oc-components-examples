@@ -33,6 +33,9 @@ If you don't want to do css in-lining, and your component needs some css that is
 ### Nesting components
 If you want to nest components, you can. [This example](nested-hello) shows how to render a nested component that is hosted in the same registry (but this is not a mandatory requirement).
 
+### Angular, Rect, ??? as OpenComponents? Yes you can
+[This example](angular-component) shows how to create an Angular.js component as OpenComponent. In this way, you can design your Angular app as usual, and use OC purely as delivery mechanism. Cool thing is that this is totally isomorphic. 
+
 ### Can I do ...? How?
 [Let me know](issues) if you would like more examples about OpenComponents. I will try to update this list adding more and more examples. If you want to ask any question about OC, [open an issue in the OC main repository](https://github.com/opentable/oc).
 

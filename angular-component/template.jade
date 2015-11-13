@@ -1,0 +1,29 @@
+div#myComponent
+  div(ng-controller="GreetingController")
+    p Hello, this is some "static" html
+      div {{greeting}}
+
+script.
+  window.oc = window.oc || {};
+  oc.cmd = oc.cmd || [];
+
+  oc.cmd.push(function(oc){
+
+    // Ensure window.angular is available. If not, it is appended to the head first.
+    // If multiple oc angular components are in the page, angular will be loaded only once
+    // and only if it is not there already ;)
+
+    oc.require('angular', 'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js', function (angular){
+
+      // Now we load our Angular controllers
+      oc.require('#{staticpath}js/greeting.js', function () {
+
+        // Now bootstrap Angular component's root to be recognised as app root
+        // This is needed to asyncronously load Angular apps - classic approach would be to add an ng-app
+        // on the element's root but this would make angular to error
+
+        angular.bootstrap($('#myComponent'), ["myComponentApp"]);
+
+      });
+    });
+  });
