@@ -37,7 +37,7 @@ If you want to nest components, you can. [This example](nested-hello) shows how 
 [This example](angular-component) shows how to create an Angular.js component as OpenComponent. In this way, you can design your Angular app as usual, and use OC purely as delivery mechanism. Cool thing is that this is totally isomorphic. 
 
 ### Can I do ...? How?
-[Let me know](issues) if you would like more examples about OpenComponents. I will try to update this list adding more and more examples. If you want to ask any question about OC, [open an issue in the OC main repository](https://github.com/opentable/oc).
+[Let me know](https://github.com/matteofigus/oc-components-examples/issues) if you would like more examples about OpenComponents. I will try to update this list adding more and more examples. If you want to ask any question about OC, [open an issue in the OC main repository](https://github.com/opentable/oc).
 
 ## License
 MIT
