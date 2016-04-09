@@ -1,0 +1,19 @@
+{
+  "name": "node-dependencies",
+  "description": "A component that shows how to require and use a server-side dependency",
+  "version": "1.0.0",
+  "repository": "https://github.com/matteofigus/oc-components-examples",
+  "author": "Matteo Figus <matteofigus@gmail.com>",
+  "dependencies": {
+    "request": ""
+  },
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "template.jade",
+        "type": "jade"
+      }
+    }
+  }
+}
