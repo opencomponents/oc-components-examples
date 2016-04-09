@@ -1,0 +1,24 @@
+{
+  "name": "react",
+  "description": "An OpenComponent that contains a React component",
+  "version": "1.0.0",
+  "repository": "https://github.com/matteofigus/oc-components-examples",
+  "author": "Matteo Figus <matteofigus@gmail.com>",
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "template.jade",
+        "type": "jade"
+      }
+    },
+    "parameters": {
+      "name": {
+        "type": "string",
+        "mandatory": false,
+        "example": "John Doe",
+        "description": "Your name"
+      }
+    }
+  }
+}
