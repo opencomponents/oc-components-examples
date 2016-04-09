@@ -1,6 +1,8 @@
 oc-components-examples
 ======================
 
+[![Join the chat at https://gitter.im/matteofigus/oc-components-examples](https://badges.gitter.im/matteofigus/oc-components-examples.svg)](https://gitter.im/matteofigus/oc-components-examples?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is intended to be a repository with some [OpenComponents](https://github.com/opentable/oc) examples.
 
 ## Running locally
