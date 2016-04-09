@@ -1,0 +1,24 @@
+#container
+
+script.
+  window.oc = window.oc || {};
+  oc.cmd = oc.cmd || [];
+
+  oc.cmd.push(function(oc){
+    oc.require('React', 'https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react.min.js', function(React){
+      oc.require('ReactDOM', 'https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react-dom.min.js', function(ReactDOM){
+
+        var Hello = React.createClass({
+          displayName: 'Hello',
+          render: function() {
+            return React.createElement('div', null, 'Hello ', this.props.name);
+          }
+        });
+
+        ReactDOM.render(
+          React.createElement(Hello, {name: '#{name}'}),
+          document.getElementById('container')  
+        );
+      });
+    });
+  });
